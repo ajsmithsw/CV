@@ -24,6 +24,13 @@ body {
 		background-color: black;
 }
 
+div {
+  width: 200px;
+  word-break: break-all;
+  white-space: normal;
+}
+
+
 a {
     color: #00e;
 }
@@ -70,6 +77,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+	 #my-controls {
+	 		position: fixed;
+			bottom: 0;
+      left: 0;
+			
+ 		  }
+			
+		#my-output {
+			width: 320px;
+			/*
+      word-break: break-all;
+      white-space: normal;				
+			*/	
+	 
+		}
 
 
 
