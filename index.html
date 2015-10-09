@@ -2,8 +2,8 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
+        <title>Alex Smith</title>
+        <meta name="description" content="Your next Junior Developer.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -26,16 +26,16 @@
         -->
 
         <!-- Add to homescreen for Chrome on Android -->
-        <!--
+        
         <meta name="mobile-web-app-capable" content="yes">
-        -->
+        
 
         <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
-        <!--
+        
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-title" content="">
-        -->
+        
 
         <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
         <!--
@@ -45,14 +45,33 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+				
     </head>
     <body>
 
         <!-- Add your site or application content here -->
-
+				
+<!-- Sets up the cursor and calls stuff from the blinkingcursor js -->
+<p>
+    <input type="text" id="user-caption" value="Type something here!" />
+    <input type="button" id="touched-yes" value="Typing Effect" />
+    <input type="button" id="touched-no" value="Erasing Effect" />  
+</p>
+<p class="console">
+    <span>></span><span id="caption"></span><span id="cursor">|</span>
+</p>
+				
+				
+				
+				
+				
+				
+				<!-- Load up the scripts that I'm using -->
         <script src="js/vendor/jquery-2.1.0.min.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/main.js"></script>
+				<script src="js/blinkingcursor.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -63,5 +82,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+				
+				<span class="highlight"><script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script></span>
     </body>
 </html>
