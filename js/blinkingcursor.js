@@ -25,13 +25,13 @@ function testTypingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 50);
+        setTimeout('type()', 20);
     } else {
         captionLength = 0;
         caption = '';
     }
 }
-
+/*Do I still need this now that I've removed the second button?*/
 function testErasingEffect() {
     caption = captionEl.html();
     captionLength = caption.length;
