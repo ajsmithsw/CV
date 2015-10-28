@@ -3,13 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
+    Alex Smith -- Junior Programmer -- @ajsmithsw# THANKS
 
     <name>
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    HTML5, CSS3
+    jQuery, Modernizr
